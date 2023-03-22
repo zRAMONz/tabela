@@ -1,0 +1,56 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead th {
+  background-color: #008CBA;
+  color: #fff;
+  text-align: left;
+  padding: 8px;
+}
+
+tbody td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tbody td:first-child {
+  font-weight: bold;
+}
+
+tbody td label {
+  display: block;
+}
+
+tbody td input[type="checkbox"],
+tbody td input[type="text"] {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+tbody td input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+tbody td:last-child input[type="text"] {
+  border: none;
+  text-align: center;
+  width: 40px;
+  margin: 0 5px;
+}
+
+tbody td:last-child input[type="text"]:focus {
+  outline: none;
+}
+
+#enviar {
+  display: block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  border: none;
+  background-color: #008CBA;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
