@@ -5,7 +5,7 @@ table {
 
 thead th {
   background-color: #DFFAFA;
-  color: #fff;
+  color: black;
   text-align: left;
   padding: 8px;
 }
@@ -50,7 +50,7 @@ tbody td:last-child input[type="text"]:focus {
   padding: 8px 16px;
   border: none;
   background-color: #DFFAFA;
-  color: #fff;
+  color: black;
   font-size: 16px;
   cursor: pointer;
 }
